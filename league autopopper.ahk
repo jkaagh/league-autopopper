@@ -27,7 +27,7 @@ while(true){
 
         MoveMouse()
         Click()
-        WinActivate("Title of Window")
+        WinActivate("League Autopopper")
     }
 }
 
