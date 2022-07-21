@@ -19,15 +19,12 @@ closeapp(asdf) {
 
 while(true){
     Sleep(500)
-
-
     ; if league is active and not disabled
     if(WinActive("League of Legends") && guiCheckbox.value == 0){
         Sleep(2000)
-
         MoveMouse()
         Click()
-        WinActivate("Title of Window")
+        WinActivate("League Autopopper")
     }
 }
 
