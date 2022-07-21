@@ -4,7 +4,7 @@ Coordmode("Mouse", "Screen")
 MyGui := Gui(, "League Autopopper")
 MyGui.MarginX := 20
 MyGui.MarginY := 20
-MyGui.Add("Text",, "Now waiting for queue... Check the box when you are in champ select or ingame.")
+MyGui.Add("Text",, "Now waiting for queue... Check the box when you are not AFK.")
 MyGui.MarginY := 0
 MyGui.Add("Text",, "Make sure the league client is not the active window.")
 MyGui.MarginY := 20
@@ -27,7 +27,7 @@ while(true){
 
         MoveMouse()
         Click()
-        WinActivate("League Autopopper")
+        WinActivate("Title of Window")
     }
 }
 
